@@ -1,6 +1,6 @@
 using System;
 namespace ConsoleApp2;
-class Task6
+public class Task6
 {
      class Student
     {
@@ -43,4 +43,5 @@ class Task6
 
         Console.WriteLine(student.IsPassed() ? "Status: Passed" : "Status: Failed");
     }
+
 }
